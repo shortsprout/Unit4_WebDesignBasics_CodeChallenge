@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+body {
+	background-color:rgb(10,9,33)
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight:700;
+	font-size:3em;
+	margin:2em;
+	color:rgba(255,255,255,1);
+}
+
+p {	
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5em;
+	margin-left:4em;
+	margin-right: 4em;
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+	color:rgb(255,255,255);
+	text-align:center;
+}
+
+#tagline{
+	background-image:url("grapes_hands.svg");
+	background-size:100%;
+	background-repeat:no-repeat;
+	padding:300px 20px;
+	text-align:center;
+}
+
+
+.nav-items{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding:0px;
+	font-family: 'Muli', sans-serif;
+	color:rgb(255,255,255);
+	text-align:right;
+	
+}
+
+.nav-items li{
+	display:inline;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 15px;
+	color:rgba(255,255,255);
+}
+
+.nav-items a{
+	display:inline-block;
+	padding:10px;
+}
